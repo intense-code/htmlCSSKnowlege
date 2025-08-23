@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Module 1 HTML Assignment</title>
+  <link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+<body>
+  <!-- Navbar -->
+   <header class="topside">
+    <nav class="navside">
+        <ul>
+            <a href="index.html">
+                <li>Homepage</li>
+            </a>
+            <a href="about.html">
+                <li>About</li>
+            </a>
+            <a href="contact.html">
+                <li>Contact</li>
+            </a>
+        </ul>
+    </nav>
+   </header>
+   <section class="table-section">
+  <div class="table-card">
+    <h2>Products</h2>
+
+    <div class="table-wrap">
+      <table class="table" aria-describedby="products-caption">
+        <thead>
+          <tr>
+            <th scope="col">Product</th>
+            <th scope="col">SKU</th>
+            <th scope="col">Category</th>
+            <th scope="col" class="numeric">Price</th>
+            <th scope="col" class="center">Rating</th>
+            <th scope="col" class="center">Stock</th>
+            <th scope="col" class="center">Status</th>
+            <th scope="col" class="center">Action</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>
+              <div class="product-cell">
+                <img class="thumb" src="https://picsum.photos/seed/keyboard/96/96" alt="Mechanical Keyboard">
+                <div>
+                  <div class="name">Mechanical Keyboard</div>
+                  <div class="sku">Hot-swap, RGB</div>
+                </div>
+              </div>
+            </td>
+            <td><span class="sku">KB-001</span></td>
+            <td><span class="tag">Peripherals</span></td>
+            <td class="numeric">$129.00</td>
+            <td class="center">
+              <span class="rating" aria-label="4 out of 5 stars">★★★★<span class="dim">★</span></span>
+            </td>
+            <td class="center">32</td>
+            <td class="center"><span class="badge badge--ok">In stock</span></td>
+            <td class="center"><button class="btn">Add to cart</button></td>
+          </tr>
+
+          <tr>
+            <td>
+              <div class="product-cell">
+                <img class="thumb" src="https://picsum.photos/seed/mouse/96/96" alt="Wireless Mouse">
+                <div>
+                  <div class="name">Wireless Mouse</div>
+                  <div class="sku">Silent clicks</div>
+                </div>
+              </div>
+            </td>
+            <td><span class="sku">MS-214</span></td>
+            <td><span class="tag">Peripherals</span></td>
+            <td class="numeric">$39.00</td>
+            <td class="center">
+              <span class="rating" aria-label="5 out of 5 stars">★★★★★</span>
+            </td>
+            <td class="center">8</td>
+            <td class="center"><span class="badge badge--low">Low</span></td>
+            <td class="center"><button class="btn">Add to cart</button></td>
+          </tr>
+
+          <tr>
+            <td>
+              <div class="product-cell">
+                <img class="thumb" src="https://picsum.photos/seed/headphones/96/96" alt="Studio Headphones">
+                <div>
+                  <div class="name">Studio Headphones</div>
+                  <div class="sku">Over-ear</div>
+                </div>
+              </div>
+            </td>
+            <td><span class="sku">HP-909</span></td>
+            <td><span class="tag">Audio</span></td>
+            <td class="numeric">$199.00</td>
+            <td class="center">
+              <span class="rating" aria-label="3 out of 5 stars">★★★<span class="dim">★★</span></span>
+            </td>
+            <td class="center">0</td>
+            <td class="center"><span class="badge badge--out">Out</span></td>
+            <td class="center"><button class="btn btn--ghost">Notify me</button></td>
+          </tr>
+        </tbody>
+
+        <tfoot>
+          <tr>
+            <td colspan="3">Total products</td>
+            <td class="numeric" colspan="5">3</td>
+          </tr>
+        </tfoot>
+
+        <caption id="products-caption">Catalog items with pricing, rating, stock, and quick actions.</caption>
+      </table>
+    </div>
+  </div>
+</section>
+
+</body>
+</html>
